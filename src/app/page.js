@@ -1,8 +1,8 @@
 "use client"
 import { useAccount, useConnect, useDisconnect, useBalance, useContractRead, useContractWrite } from 'wagmi'
 import { base } from '@reown/appkit/networks'
-import { ABI } from './abi'
-
+import abi from "./abi.json";
+const ABI = abi
 const contract = {
   address: '0x4a8AEd5b9153F5F9A70B29e53bB40fdC4FcB78ff',
   abi: ABI,

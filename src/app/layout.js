@@ -1,4 +1,5 @@
 // app/layout.tsx
+"use client" 
 import { WagmiProvider } from 'wagmi'
 import { config } from '../wagmi'
 
